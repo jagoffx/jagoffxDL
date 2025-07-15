@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js",
-    "start": "node generate_config.js && node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js && node generate_config.js"
   },
   "nodemonConfig": {
     "ignore": [
